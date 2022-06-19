@@ -41,7 +41,8 @@ const cube3 = new THREE.Mesh(
 cube3.position.x = 2;
 group.add(cube3);
 
-group.position.y = 1;
+group.scale.y = 2;
+group.rotation.y = 1;
 
 /**
  * Camera
